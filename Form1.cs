@@ -12,9 +12,8 @@ namespace Al_Soft
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)//si se lo elimina el programa falla xd//
         {
-
         }
 
         private void cerrar_Click(object sender, EventArgs e)
@@ -49,42 +48,44 @@ namespace Al_Soft
             frm.Show();
         }
 
-        //Conexión MySQL (fallida)
+        //Conexión del Programa con la Base de datos de MySQL
         private void button1_Click(object sender, EventArgs e)
         {
             string nombre, clave;
             nombre = textBox1.Text;
             clave = textBox2.Text;
-            MySqlConnection conexion = new MySqlConnection("server=127.0.0.1; database=tienda; Uid=root;");
+            MySqlConnection Abrirconexion = new MySqlConnection("server=127.0.0.1; database=tienda; Uid=root;");
             try
             {
-                conexion.Open();
+                Abrirconexion.Open();
             }
             catch (MySqlException ex)
             {
                 MessageBox.Show("Error " + ex.ToString());
             }
-            string sql = "select usuario, contraseña from modista where usuario= '" + nombre + "' and contraseña = '" + clave + "' ";
-            MySqlCommand cmd = new MySqlCommand(sql, conexion);
-            MySqlDataReader read = cmd.ExecuteReader();
 
-            if (read.Read())
+            //Se realiza conexion con la BDD para Iniciar sesion con un usuario y contraseña previamente ingresados. //
+            string sql = "select usuario, contraseña from modista where usuario= '" + nombre + "' and contraseña = '" + clave + "' ";
+            MySqlCommand codigo = new MySqlCommand(sql, Abrirconexion);
+            MySqlDataReader Lectura = codigo.ExecuteReader();
+
+            if (Lectura.Read()) // Se crean 2 condiciones de Inicio de Sesion, donde se leen los datos. //
             {
-                MessageBox.Show("Bienvenido " + nombre);
+                MessageBox.Show("Bienvenido al Programa"); // Se envia mensaje en caso de estar registrado.
                 this.Hide();
                 Form3 n3= new Form3();
                 n3.Show();
             }
             else
             {
-                MessageBox.Show("El usuario" + nombre + " no existe");
+                MessageBox.Show(" Usuario o Contraseña incorrectos. "); // Se envia un mensaje en caso de error o no estar registrado. //
                 this.Hide();
                 Form1 n1 = new Form1();
                 n1.Show();
             }
         }
 
-        //Para ocultar la contraseña (que no oculta un carajo xd)
+        //Ocultar Contraseña
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true)

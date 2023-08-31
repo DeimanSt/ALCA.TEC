@@ -30,14 +30,37 @@ namespace Al_Soft
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void btnSalir_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea Cerrar del Programa?","Alerta ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes);
+            Application.Exit();
+        }
+
+        public void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        public void btnMinimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3_1 fr= new Form3_1();  
+            //fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void btnInfoSoft_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
