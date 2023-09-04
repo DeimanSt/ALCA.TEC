@@ -51,7 +51,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label5);
@@ -70,9 +70,9 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Pink;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Pink;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.LavenderBlush;
             this.button1.Image = global::Al_Soft.Properties.Resources.Minimizar_pantalla;
@@ -100,9 +100,9 @@
             // button2
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Pink;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.LavenderBlush;
             this.button2.Image = global::Al_Soft.Properties.Resources.salir_2;
@@ -138,7 +138,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.GhostWhite;
@@ -238,19 +238,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(323, 605);
+            this.label1.Location = new System.Drawing.Point(325, 617);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 20);
             this.label1.TabIndex = 28;
             this.label1.Text = "Versión 0.6.2 Beta";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
-            this.ClientSize = new System.Drawing.Size(484, 640);
+            this.ClientSize = new System.Drawing.Size(484, 646);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox3);

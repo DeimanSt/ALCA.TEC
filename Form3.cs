@@ -46,21 +46,23 @@ namespace Al_Soft
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void AbrirFormularios(object NuevoForm)
         {
-
+            if (this.panelContenedor.Controls.Count >0) 
+                this.panelContenedor.Controls.RemoveAt(0);  
+            Form fh= NuevoForm as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelContenedor.Controls.Add(fh);
+            this.panelContenedor.Tag = fh;
+            fh.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void butCliente_Click(object sender, EventArgs e)
         {
-            Form3_1 fr= new Form3_1();  
-            //fr.MdiParent = this;
-            fr.Show();
-        }
-
-        private void btnInfoSoft_Click(object sender, EventArgs e)
-        {
-
+            AbrirFormularios(new Form3_1());
         }
     }
-}
+  }
+
+

@@ -19,22 +19,12 @@ namespace Al_Soft
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-           Application.Exit();
+            this.Close();
         }
 
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
-        }
-
-        private void btnMinimizar_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void Form3_1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

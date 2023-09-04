@@ -63,6 +63,16 @@ namespace Al_Soft.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1__2_ {
+            get {
+                object obj = ResourceManager.GetObject("1 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icono_acercade {
             get {
                 object obj = ResourceManager.GetObject("icono acercade", resourceCulture);

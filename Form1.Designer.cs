@@ -53,7 +53,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.minimizar);
@@ -76,16 +76,16 @@
             this.label5.ForeColor = System.Drawing.Color.GhostWhite;
             this.label5.Location = new System.Drawing.Point(48, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(148, 25);
+            this.label5.Size = new System.Drawing.Size(251, 25);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Al Soft - Inicio";
+            this.label5.Text = "Al Soft - Inicio de Sesión";
             // 
             // minimizar
             // 
             this.minimizar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.minimizar.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.minimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
-            this.minimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
+            this.minimizar.FlatAppearance.BorderColor = System.Drawing.Color.Pink;
+            this.minimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Pink;
+            this.minimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
             this.minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizar.Image = ((System.Drawing.Image)(resources.GetObject("minimizar.Image")));
             this.minimizar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -100,9 +100,9 @@
             // cerrar
             // 
             this.cerrar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.cerrar.FlatAppearance.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.cerrar.FlatAppearance.BorderColor = System.Drawing.Color.Pink;
             this.cerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
-            this.cerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Pink;
+            this.cerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightPink;
             this.cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cerrar.Image = ((System.Drawing.Image)(resources.GetObject("cerrar.Image")));
             this.cerrar.Location = new System.Drawing.Point(1143, 0);
@@ -219,7 +219,7 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.GhostWhite;
@@ -234,7 +234,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
