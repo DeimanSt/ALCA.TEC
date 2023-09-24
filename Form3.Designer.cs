@@ -385,7 +385,6 @@
         private System.Windows.Forms.Button butInform;
         private System.Windows.Forms.Button butConfig;
         private System.Windows.Forms.Panel panelContenedor;
-        private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.PictureBox PictboxLogo;
     }
 }
