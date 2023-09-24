@@ -1,13 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Al_Soft
@@ -30,31 +24,28 @@ namespace Al_Soft
             ReleasedCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         private void button3_Click(object sender, EventArgs e)
         {
-         MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; database=tienda; Uid=root");
+            MySqlConnection abrirconexion = new MySqlConnection("server = 127.0.0.1; database=tienda; Uid=root");
             try
             {
-                conexion.Open();
+                abrirconexion.Open();
             }
             catch (MySqlException ex)
             {
                 MessageBox.Show("Error " + ex.ToString());
-            
+
             }
             String sql = "insert into modista(usuario,contraseña) values ('" + textBox4.Text + "' , '" + textBox3.Text + "')";
-            MySqlCommand cmd = new MySqlCommand(sql, conexion);
+            MySqlCommand RegistroConex = new MySqlCommand(sql, abrirconexion);
             try
             {
-                cmd.ExecuteNonQuery();
+                RegistroConex.ExecuteNonQuery();
                 MessageBox.Show("Usuario Registrado Exitosamente");
                 this.Hide();
                 Form1 n1 = new Form1();
@@ -66,9 +57,18 @@ namespace Al_Soft
             }
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void btnSubirFoto_Click(object sender, EventArgs e)
         {
+            OpenFileDialog AbrirImagen = new OpenFileDialog();
+            AbrirImagen.Filter = "Imagenes| *.jpg; *.png";
+            AbrirImagen.InitialDirectory= Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+            AbrirImagen.Title= "Seleccionar Imágen";
 
+            if(AbrirImagen.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image= Image.FromFile(AbrirImagen.FileName);
+                btnSubirFoto.Visible = false;
+            }
         }
     }
 }

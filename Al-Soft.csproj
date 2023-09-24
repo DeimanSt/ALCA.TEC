@@ -72,6 +72,7 @@
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
     </Reference>
@@ -118,17 +119,29 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3-1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3-1.Designer.cs">
-      <DependentUpon>Form3-1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_1.Designer.cs">
+      <DependentUpon>Form3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_2.Designer.cs">
+      <DependentUpon>Form3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_3.Designer.cs">
+      <DependentUpon>Form3_3.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -138,27 +151,32 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3-1.resx">
-      <DependentUpon>Form3-1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_1.resx">
+      <DependentUpon>Form3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_2.resx">
+      <DependentUpon>Form3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_3.resx">
+      <DependentUpon>Form3_3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -167,54 +185,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\salir 2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Minimizar pantalla.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Maximizar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Icono pantalla.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Icono mas.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Icono tienda pink.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icono home 2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icono logo Alcatec.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-cliente-40.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-abrir-carpeta-40.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-diseño-40.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-edit-product-40.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-grafico economico-40.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icono acercade.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-edit-production-order-40.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1 %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

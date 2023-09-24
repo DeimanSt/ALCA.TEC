@@ -21,11 +21,6 @@ namespace Al_Soft
             Application.Exit();
         }
 
-        private void minimizar_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -42,6 +37,7 @@ namespace Al_Soft
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        //Comando para que el usuario pueda ingresar al Formulario siguiente y así Registrarse
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form2 frm = new Form2();
@@ -71,9 +67,9 @@ namespace Al_Soft
 
             if (Lectura.Read()) // Se crean 2 condiciones de Inicio de Sesion, donde se leen los datos. //
             {
-                MessageBox.Show("Bienvenido al Programa"); // Se envia mensaje en caso de estar registrado.
+               //En caso de estar registrado pasa al siguiente formulario
                 this.Hide();
-                Form3 n3= new Form3();
+                Form3 n3 = new Form3();
                 n3.Show();
             }
             else
@@ -96,6 +92,11 @@ namespace Al_Soft
             {
                 textBox2.UseSystemPasswordChar = true;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
