@@ -67,7 +67,7 @@ namespace Al_Soft
 
             if (Lectura.Read()) // Se crean 2 condiciones de Inicio de Sesion, donde se leen los datos. //
             {
-               //En caso de estar registrado pasa al siguiente formulario
+                //En caso de estar registrado pasa al siguiente formulario
                 this.Hide();
                 Form3 n3 = new Form3();
                 n3.Show();
@@ -93,10 +93,6 @@ namespace Al_Soft
                 textBox2.UseSystemPasswordChar = true;
             }
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
+      

@@ -20,6 +20,9 @@ namespace Al_Soft
                                             //el datatable es una tabla virtual que creamos para mostrar los datos.
           adaptador.Fill(tabla);  
           dataGridCliente.DataSource= tabla; //le indicamos donde queremos que nos muestre los datos, en este caso en el datagridview.
+
+         
+
         }
 
         private void btnGuardar_Click(object sender, System.EventArgs e)

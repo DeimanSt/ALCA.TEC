@@ -35,12 +35,12 @@
             this.minimizar = new System.Windows.Forms.Button();
             this.cerrar = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Confirmartxb = new System.Windows.Forms.TextBox();
+            this.Contratxb = new System.Windows.Forms.TextBox();
             this.lab4 = new System.Windows.Forms.Label();
             this.lab3 = new System.Windows.Forms.Label();
             this.lab2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.IngresarUsuariotxb = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.lab1 = new System.Windows.Forms.Label();
             this.lab6 = new System.Windows.Forms.Label();
@@ -140,23 +140,23 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox3
+            // Confirmartxb
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox3.Location = new System.Drawing.Point(56, 256);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(280, 26);
-            this.textBox3.TabIndex = 26;
+            this.Confirmartxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Confirmartxb.Location = new System.Drawing.Point(56, 256);
+            this.Confirmartxb.Margin = new System.Windows.Forms.Padding(4);
+            this.Confirmartxb.Name = "Confirmartxb";
+            this.Confirmartxb.Size = new System.Drawing.Size(280, 26);
+            this.Confirmartxb.TabIndex = 26;
             // 
-            // textBox2
+            // Contratxb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox2.Location = new System.Drawing.Point(56, 181);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(280, 26);
-            this.textBox2.TabIndex = 25;
+            this.Contratxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Contratxb.Location = new System.Drawing.Point(56, 181);
+            this.Contratxb.Margin = new System.Windows.Forms.Padding(4);
+            this.Contratxb.Name = "Contratxb";
+            this.Contratxb.Size = new System.Drawing.Size(280, 26);
+            this.Contratxb.TabIndex = 25;
             // 
             // lab4
             // 
@@ -191,14 +191,14 @@
             this.lab2.TabIndex = 21;
             this.lab2.Text = "Ingrese Usuario:";
             // 
-            // textBox4
+            // IngresarUsuariotxb
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox4.Location = new System.Drawing.Point(56, 106);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(280, 26);
-            this.textBox4.TabIndex = 20;
+            this.IngresarUsuariotxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.IngresarUsuariotxb.Location = new System.Drawing.Point(56, 106);
+            this.IngresarUsuariotxb.Margin = new System.Windows.Forms.Padding(4);
+            this.IngresarUsuariotxb.Name = "IngresarUsuariotxb";
+            this.IngresarUsuariotxb.Size = new System.Drawing.Size(280, 26);
+            this.IngresarUsuariotxb.TabIndex = 20;
             // 
             // checkBox2
             // 
@@ -289,7 +289,7 @@
             // 
             this.btnSubirFoto.BackColor = System.Drawing.Color.Transparent;
             this.btnSubirFoto.FlatAppearance.BorderSize = 0;
-            this.btnSubirFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnSubirFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnSubirFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubirFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubirFoto.ForeColor = System.Drawing.Color.Black;
@@ -306,7 +306,7 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(415, 90);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(242, 242);
+            this.pictureBox1.Size = new System.Drawing.Size(242, 244);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
@@ -330,12 +330,12 @@
             this.Controls.Add(this.txbCedulaM);
             this.Controls.Add(this.lab1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Confirmartxb);
+            this.Controls.Add(this.Contratxb);
             this.Controls.Add(this.lab4);
             this.Controls.Add(this.lab3);
             this.Controls.Add(this.lab2);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.IngresarUsuariotxb);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -358,12 +358,12 @@
         private System.Windows.Forms.Button cerrar;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Confirmartxb;
+        private System.Windows.Forms.TextBox Contratxb;
         private System.Windows.Forms.Label lab4;
         private System.Windows.Forms.Label lab3;
         private System.Windows.Forms.Label lab2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox IngresarUsuariotxb;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lab1;

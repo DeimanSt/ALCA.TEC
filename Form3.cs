@@ -8,10 +8,11 @@ namespace Al_Soft
 {
     public partial class Form3 : Form
     {
-    
+
         public Form3()
         {
             InitializeComponent();
+            DiseñoSubmenu();
         }
 
         //😭
@@ -56,7 +57,7 @@ namespace Al_Soft
 
         private void btnRestaurar_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1200, 700); //indicamos q el tamaño del form tendra un nuevo tamaño, en este caso será el de nuestro form
+            this.Size = new Size(1000, 600); //indicamos q el tamaño del form tendra un nuevo tamaño, en este caso será el de nuestro form
             this.Location = new Point(LX, LY);
             btnRestaurar.Visible = false;
             btnMaximizar.Visible = true;
@@ -83,33 +84,62 @@ namespace Al_Soft
 
         private void btnGestock_Click(object sender, EventArgs e)
         {
-            if(SubMenuGStock.Height==90)
-            {
-                SubMenuGStock.Visible = false;
-            }
-            else
-            {
-                SubMenuGStock.Height = 90;
-            }
+            mostrarSubmenu(SubMenuGStock);
         }
 
-        private void pictBoxMenu_Click(object sender, EventArgs e)
+        private void pictBoxMenu_Click(object sender, EventArgs e) //código para hacer que el menú sea desplegable
         {
-        if (panelmenu.Width == 350)
+            if (panelmenu.Width == 321)
             {
-                panelmenu.Width = 78;
+                panelmenu.Width = 76;
             }
             else
             {
-                panelmenu.Width = 350;
+                panelmenu.Width = 321;
             }
-        if (panelLogo.Width == 350)
+            if (panelLogo.Width == 321)
             {
-                panelLogo.Width = 78;
+                panelLogo.Width = 76;
             }
             else
             {
                 panelLogo.Width = 350;
+            }
+        }
+        private void DiseñoSubmenu() //creamos un método para ver u ocultar el submenú de Gestión de Stock
+        {
+            SubMenuGStock.Visible = false;
+        }
+        private void ocultarSubmenu()
+        {
+            if (SubMenuGStock.Visible == true)
+            {
+                SubMenuGStock.Visible = false;
+            }
+        }
+
+        private void btnStockPrendas_Click(object sender, EventArgs e)
+        {
+            ocultarSubmenu();
+        }
+
+        private void btnStockMatPrima_Click_1(object sender, EventArgs e)
+        {
+           ocultarSubmenu();
+        }
+
+   
+
+        private void mostrarSubmenu(Panel Submenu)
+        {
+            if (Submenu.Visible == false)
+            {
+                ocultarSubmenu();
+                Submenu.Visible = true;
+            }
+            else
+            {
+                Submenu.Visible = false;
             }
         }
     }

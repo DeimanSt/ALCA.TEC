@@ -41,7 +41,7 @@ namespace Al_Soft
                 MessageBox.Show("Error " + ex.ToString());
 
             }
-            String sql = "insert into modista(usuario,contraseña) values ('" + textBox4.Text + "' , '" + textBox3.Text + "')";
+            String sql = "insert into modista(Usuario, Contraseña, CédulaM, Teléfono, RUT) values ('" + IngresarUsuariotxb.Text + "' , '" + Contratxb.Text + "', '" + txbCedulaM.Text + "' , '" + txbTel.Text + "' ,  '" + txbRUT.Text + "' )";
             MySqlCommand RegistroConex = new MySqlCommand(sql, abrirconexion);
             try
             {

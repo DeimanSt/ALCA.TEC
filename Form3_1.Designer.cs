@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            FontAwesome.Sharp.IconPictureBox iconLimpiar;
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.labNom = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnModificar = new System.Windows.Forms.Button();
-            this.iconLimpiar = new FontAwesome.Sharp.IconPictureBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.dateTimeFecha = new System.Windows.Forms.DateTimePicker();
             this.txbTel = new System.Windows.Forms.TextBox();
@@ -50,11 +50,28 @@
             this.txbBuscar = new System.Windows.Forms.TextBox();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
+            iconLimpiar = new FontAwesome.Sharp.IconPictureBox();
+            ((System.ComponentModel.ISupportInitialize)(iconLimpiar)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconLimpiar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCliente)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // iconLimpiar
+            // 
+            iconLimpiar.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            iconLimpiar.BackColor = System.Drawing.Color.Transparent;
+            iconLimpiar.ForeColor = System.Drawing.Color.AliceBlue;
+            iconLimpiar.IconChar = FontAwesome.Sharp.IconChar.UndoAlt;
+            iconLimpiar.IconColor = System.Drawing.Color.AliceBlue;
+            iconLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconLimpiar.IconSize = 50;
+            iconLimpiar.Location = new System.Drawing.Point(1064, 82);
+            iconLimpiar.Name = "iconLimpiar";
+            iconLimpiar.Size = new System.Drawing.Size(50, 50);
+            iconLimpiar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            iconLimpiar.TabIndex = 12;
+            iconLimpiar.TabStop = false;
             // 
             // labNom
             // 
@@ -75,7 +92,7 @@
             this.groupBox1.AutoSize = true;
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.btnModificar);
-            this.groupBox1.Controls.Add(this.iconLimpiar);
+            this.groupBox1.Controls.Add(iconLimpiar);
             this.groupBox1.Controls.Add(this.btnGuardar);
             this.groupBox1.Controls.Add(this.dateTimeFecha);
             this.groupBox1.Controls.Add(this.txbTel);
@@ -93,7 +110,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(31, 38);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1137, 223);
+            this.groupBox1.Size = new System.Drawing.Size(1169, 223);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "REGISTRAR CLIENTE:";
@@ -105,29 +122,13 @@
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.ForeColor = System.Drawing.Color.GhostWhite;
-            this.btnModificar.Location = new System.Drawing.Point(878, 126);
+            this.btnModificar.Location = new System.Drawing.Point(894, 126);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(120, 44);
             this.btnModificar.TabIndex = 19;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = false;
-            // 
-            // iconLimpiar
-            // 
-            this.iconLimpiar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.iconLimpiar.BackColor = System.Drawing.Color.Transparent;
-            this.iconLimpiar.ForeColor = System.Drawing.Color.GhostWhite;
-            this.iconLimpiar.IconChar = FontAwesome.Sharp.IconChar.UndoAlt;
-            this.iconLimpiar.IconColor = System.Drawing.Color.GhostWhite;
-            this.iconLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconLimpiar.IconSize = 50;
-            this.iconLimpiar.Location = new System.Drawing.Point(1048, 82);
-            this.iconLimpiar.Name = "iconLimpiar";
-            this.iconLimpiar.Size = new System.Drawing.Size(50, 50);
-            this.iconLimpiar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.iconLimpiar.TabIndex = 12;
-            this.iconLimpiar.TabStop = false;
             // 
             // btnGuardar
             // 
@@ -136,7 +137,7 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.GhostWhite;
-            this.btnGuardar.Location = new System.Drawing.Point(878, 47);
+            this.btnGuardar.Location = new System.Drawing.Point(894, 47);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(120, 44);
@@ -152,7 +153,7 @@
             this.dateTimeFecha.CalendarForeColor = System.Drawing.Color.HotPink;
             this.dateTimeFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimeFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeFecha.Location = new System.Drawing.Point(558, 142);
+            this.dateTimeFecha.Location = new System.Drawing.Point(574, 142);
             this.dateTimeFecha.Name = "dateTimeFecha";
             this.dateTimeFecha.Size = new System.Drawing.Size(245, 28);
             this.dateTimeFecha.TabIndex = 11;
@@ -161,7 +162,7 @@
             // 
             this.txbTel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txbTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTel.Location = new System.Drawing.Point(558, 91);
+            this.txbTel.Location = new System.Drawing.Point(574, 91);
             this.txbTel.Name = "txbTel";
             this.txbTel.Size = new System.Drawing.Size(245, 28);
             this.txbTel.TabIndex = 10;
@@ -170,7 +171,7 @@
             // 
             this.txbDireccion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txbDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbDireccion.Location = new System.Drawing.Point(558, 46);
+            this.txbDireccion.Location = new System.Drawing.Point(574, 46);
             this.txbDireccion.Name = "txbDireccion";
             this.txbDireccion.Size = new System.Drawing.Size(245, 28);
             this.txbDireccion.TabIndex = 9;
@@ -193,10 +194,11 @@
             // 
             // txbNombre
             // 
+            this.txbNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbNombre.Location = new System.Drawing.Point(138, 47);
             this.txbNombre.Name = "txbNombre";
-            this.txbNombre.Size = new System.Drawing.Size(273, 28);
+            this.txbNombre.Size = new System.Drawing.Size(273, 21);
             this.txbNombre.TabIndex = 6;
             // 
             // labFecha
@@ -205,7 +207,7 @@
             this.labFecha.AutoSize = true;
             this.labFecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labFecha.ForeColor = System.Drawing.Color.White;
-            this.labFecha.Location = new System.Drawing.Point(451, 149);
+            this.labFecha.Location = new System.Drawing.Point(467, 149);
             this.labFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labFecha.Name = "labFecha";
             this.labFecha.Size = new System.Drawing.Size(71, 22);
@@ -230,7 +232,7 @@
             this.labTel.AutoSize = true;
             this.labTel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labTel.ForeColor = System.Drawing.Color.White;
-            this.labTel.Location = new System.Drawing.Point(451, 97);
+            this.labTel.Location = new System.Drawing.Point(467, 97);
             this.labTel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labTel.Name = "labTel";
             this.labTel.Size = new System.Drawing.Size(95, 22);
@@ -243,7 +245,7 @@
             this.labDir.AutoSize = true;
             this.labDir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labDir.ForeColor = System.Drawing.Color.White;
-            this.labDir.Location = new System.Drawing.Point(451, 52);
+            this.labDir.Location = new System.Drawing.Point(467, 52);
             this.labDir.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labDir.Name = "labDir";
             this.labDir.Size = new System.Drawing.Size(100, 22);
@@ -270,6 +272,7 @@
             this.dataGridCliente.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridCliente.BackgroundColor = System.Drawing.Color.LavenderBlush;
+            this.dataGridCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridCliente.Location = new System.Drawing.Point(31, 363);
             this.dataGridCliente.Name = "dataGridCliente";
@@ -277,7 +280,7 @@
             this.dataGridCliente.RowHeadersWidth = 51;
             this.dataGridCliente.RowTemplate.Height = 24;
             this.dataGridCliente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridCliente.Size = new System.Drawing.Size(1137, 364);
+            this.dataGridCliente.Size = new System.Drawing.Size(1169, 364);
             this.dataGridCliente.TabIndex = 2;
             // 
             // panel1
@@ -289,7 +292,7 @@
             this.panel1.Controls.Add(this.lblBuscar);
             this.panel1.Location = new System.Drawing.Point(31, 280);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1137, 58);
+            this.panel1.Size = new System.Drawing.Size(1169, 58);
             this.panel1.TabIndex = 3;
             // 
             // txbBuscar
@@ -319,15 +322,16 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.hScrollBar1.Location = new System.Drawing.Point(31, 706);
             this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(1137, 21);
+            this.hScrollBar1.Size = new System.Drawing.Size(1169, 21);
             this.hScrollBar1.TabIndex = 4;
             // 
             // Form3_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
-            this.ClientSize = new System.Drawing.Size(1200, 755);
+            this.ClientSize = new System.Drawing.Size(1232, 794);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridCliente);
@@ -338,9 +342,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3_1";
             this.Load += new System.EventHandler(this.Form3_1_Load);
+            ((System.ComponentModel.ISupportInitialize)(iconLimpiar)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconLimpiar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCliente)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -364,7 +368,6 @@
         private System.Windows.Forms.TextBox txbCedula;
         private System.Windows.Forms.TextBox txbApellido;
         private System.Windows.Forms.TextBox txbNombre;
-        private FontAwesome.Sharp.IconPictureBox iconLimpiar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.DataGridView dataGridCliente;
         private System.Windows.Forms.Panel panel1;
