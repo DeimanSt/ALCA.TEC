@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
+using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -8,14 +9,13 @@ namespace Al_Soft
 {
     public partial class Form3 : Form
     {
-
         public Form3()
         {
             InitializeComponent();
-            DiseñoSubmenu();
+          
         }
 
-        //😭
+        //😭 Para mover el formulario.
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleasedCapture();
 
@@ -32,18 +32,7 @@ namespace Al_Soft
             if (MessageBox.Show("¿Desea Cerrar del Programa?", "Alerta ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 Application.Exit();
         }
-        private void AbrirFormularios(object NuevoForm)
-        {
-            if (this.panelcontenedor.Controls.Count > 0)
-                this.panelcontenedor.Controls.RemoveAt(0);
-            Form fh = NuevoForm as Form;
-            fh.TopLevel = false;
-            fh.Dock = DockStyle.Fill;
-            this.panelcontenedor.Controls.Add(fh);
-            this.panelcontenedor.Tag = fh;
-            fh.Show();
-        }
-
+       
         int LX, LY;//Creamos variables para que el boton restarurar noabra al formulario solo en un punto fijo
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
@@ -57,7 +46,7 @@ namespace Al_Soft
 
         private void btnRestaurar_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1000, 600); //indicamos q el tamaño del form tendra un nuevo tamaño, en este caso será el de nuestro form
+            this.Size = new Size(1000, 700); //indicamos q el tamaño del form tendra un nuevo tamaño, en este caso será el de nuestro form
             this.Location = new Point(LX, LY);
             btnRestaurar.Visible = false;
             btnMaximizar.Visible = true;
@@ -67,82 +56,50 @@ namespace Al_Soft
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private Form activeForm = null;
+        private void AbrirFormularios(Form NuevoForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = NuevoForm;
+            NuevoForm.TopLevel = false;
+            NuevoForm.FormBorderStyle = FormBorderStyle.None;
+            NuevoForm.Dock = DockStyle.Fill;
+            pnlContenedor.Controls.Add(NuevoForm);
+            pnlContenedor.Tag = NuevoForm;
+            NuevoForm.Show();
+        }
+
         private void btnClientes_Click(object sender, EventArgs e)
         {
             AbrirFormularios(new Form3_1());
+
         }
 
-        private void btnPedidos_Click(object sender, EventArgs e)
-        {
-            AbrirFormularios(new Form3_2());
-        }
-
-        private void btnMoldesP_Click(object sender, EventArgs e)
+        private void btnGeStock_Click(object sender, EventArgs e)
         {
             AbrirFormularios(new Form3_3());
         }
 
-        private void btnGestock_Click(object sender, EventArgs e)
+        private void btnMoldesP_Click(object sender, EventArgs e)
         {
-            mostrarSubmenu(SubMenuGStock);
+            AbrirFormularios(new Form3_2());
         }
 
-        private void pictBoxMenu_Click(object sender, EventArgs e) //código para hacer que el menú sea desplegable
+        private void pictDeslizarMenu_Click(object sender, EventArgs e)
         {
-            if (panelmenu.Width == 321)
+
+            if (pnlMenu.Width == 350)
             {
-                panelmenu.Width = 76;
+                pnlMenu.Width = 70;
             }
             else
             {
-                panelmenu.Width = 321;
-            }
-            if (panelLogo.Width == 321)
-            {
-                panelLogo.Width = 76;
-            }
-            else
-            {
-                panelLogo.Width = 350;
+                pnlMenu.Width = 350;
             }
         }
-        private void DiseñoSubmenu() //creamos un método para ver u ocultar el submenú de Gestión de Stock
-        {
-            SubMenuGStock.Visible = false;
-        }
-        private void ocultarSubmenu()
-        {
-            if (SubMenuGStock.Visible == true)
-            {
-                SubMenuGStock.Visible = false;
-            }
-        }
-
-        private void btnStockPrendas_Click(object sender, EventArgs e)
-        {
-            ocultarSubmenu();
-        }
-
-        private void btnStockMatPrima_Click_1(object sender, EventArgs e)
-        {
-           ocultarSubmenu();
-        }
-
-   
-
-        private void mostrarSubmenu(Panel Submenu)
-        {
-            if (Submenu.Visible == false)
-            {
-                ocultarSubmenu();
-                Submenu.Visible = true;
-            }
-            else
-            {
-                Submenu.Visible = false;
-            }
-        }
-    }
+     }
 }
 
 

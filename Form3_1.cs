@@ -1,7 +1,15 @@
 ﻿using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Al_Soft
 {
@@ -11,23 +19,27 @@ namespace Al_Soft
         {
             InitializeComponent();
         }
-        MySqlConnection conexion = new MySqlConnection("server=127.0.0.1; database=tienda; Uid=root;");
-        private void Form3_1_Load(object sender, System.EventArgs e)
+        MySqlConnection Abrirconexion = new MySqlConnection("server=127.0.0.1; database=tienda; Uid=root;");
+
+        private void Form3_1_Load(object sender, EventArgs e)
         {
-          string consulta = "Select*from Clientes";//Cadena de consulta que me va a mostrar los datos de la tabla indicada.
-          MySqlDataAdapter adaptador = new MySqlDataAdapter(consulta,conexion);//creo una adaptador que me traiga dichos datos.
-          DataTable tabla = new DataTable(); //creamos una tabla virtual que me almacene los datos de la tabl indicada.
-                                            //el datatable es una tabla virtual que creamos para mostrar los datos.
-          adaptador.Fill(tabla);  
-          dataGridCliente.DataSource= tabla; //le indicamos donde queremos que nos muestre los datos, en este caso en el datagridview.
-
-         
-
+            //
+            string abrirconsulta = "select*from Clientes";
+           MySqlDataAdapter adaptador = new MySqlDataAdapter(abrirconsulta, Abrirconexion);
+            DataTable tablavirtual = new DataTable();
+            adaptador.Fill(tablavirtual);
+            dgvClientes.DataSource = tablavirtual;
         }
 
-        private void btnGuardar_Click(object sender, System.EventArgs e)
+        private void btnAñadir_Click(object sender, EventArgs e) //Se traen los datos de las tablas de mysql hacia el programa.
         {
+            Abrirconexion.Open();
+            string abrirconsulta = "insert into Clientes values(" + txbIDCliente + ",'" + txbNombre + "','" + txbApellido + "','" + txbDir + "','" + txbTel + "','" + txbCI + "');";
+            MySqlCommand comando = new MySqlCommand(abrirconsulta, Abrirconexion);
+            comando.ExecuteNonQuery();
+            MessageBox.Show("Registrado");
 
+            Abrirconexion.Close();
         }
     }
 }

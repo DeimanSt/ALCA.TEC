@@ -41,7 +41,7 @@ namespace Al_Soft
                 MessageBox.Show("Error " + ex.ToString());
 
             }
-            String sql = "insert into modista(Usuario, Contraseña, CédulaM, Teléfono, RUT) values ('" + IngresarUsuariotxb.Text + "' , '" + Contratxb.Text + "', '" + txbCedulaM.Text + "' , '" + txbTel.Text + "' ,  '" + txbRUT.Text + "' )";
+            String sql = "insert into modista(Usuario, Contraseña, CédulaM, Teléfono) values ('" + IngresarUsuariotxb.Text + "' , '" + Contratxb.Text + "', '" + txbCedulaM.Text + "' , '" + txbTel.Text + "',)";
             MySqlCommand RegistroConex = new MySqlCommand(sql, abrirconexion);
             try
             {
@@ -69,6 +69,11 @@ namespace Al_Soft
                 pictureBox1.Image= Image.FromFile(AbrirImagen.FileName);
                 btnSubirFoto.Visible = false;
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

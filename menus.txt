@@ -1,7 +1,0 @@
-Clientes
-Pedidos
-Moldes Personalizados
-Gestion de stock
-Control Anual
-Configuración
-Información

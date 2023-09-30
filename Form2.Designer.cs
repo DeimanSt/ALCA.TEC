@@ -43,22 +43,20 @@
             this.IngresarUsuariotxb = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.lab1 = new System.Windows.Forms.Label();
-            this.lab6 = new System.Windows.Forms.Label();
-            this.txbCedulaM = new System.Windows.Forms.TextBox();
-            this.lab7 = new System.Windows.Forms.Label();
-            this.txbRUT = new System.Windows.Forms.TextBox();
             this.lab5 = new System.Windows.Forms.Label();
             this.txbTel = new System.Windows.Forms.TextBox();
             this.btnSubirFoto = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.lab6 = new System.Windows.Forms.Label();
+            this.txbCedulaM = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(120)))), ((int)(((byte)(210)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.button2);
@@ -69,7 +67,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(707, 46);
+            this.panel1.Size = new System.Drawing.Size(800, 46);
             this.panel1.TabIndex = 3;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -91,11 +89,11 @@
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Pink;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Orchid;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.HotPink;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.LavenderBlush;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(661, 4);
+            this.button2.Location = new System.Drawing.Point(754, 4);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(40, 40);
@@ -127,11 +125,11 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(149)))), ((int)(((byte)(222)))));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(120)))), ((int)(((byte)(210)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.GhostWhite;
-            this.button3.Location = new System.Drawing.Point(435, 434);
+            this.button3.Location = new System.Drawing.Point(496, 434);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(190, 43);
@@ -217,53 +215,13 @@
             this.lab1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lab1.AutoSize = true;
             this.lab1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lab1.Location = new System.Drawing.Point(536, 576);
+            this.lab1.Location = new System.Drawing.Point(630, 547);
             this.lab1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lab1.Name = "lab1";
             this.lab1.Size = new System.Drawing.Size(146, 20);
             this.lab1.TabIndex = 28;
             this.lab1.Text = "Versión 0.6.2 Beta";
             this.lab1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            // 
-            // lab6
-            // 
-            this.lab6.AutoSize = true;
-            this.lab6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lab6.Location = new System.Drawing.Point(52, 426);
-            this.lab6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lab6.Name = "lab6";
-            this.lab6.Size = new System.Drawing.Size(66, 20);
-            this.lab6.TabIndex = 30;
-            this.lab6.Text = "Cédula:";
-            // 
-            // txbCedulaM
-            // 
-            this.txbCedulaM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txbCedulaM.Location = new System.Drawing.Point(56, 451);
-            this.txbCedulaM.Margin = new System.Windows.Forms.Padding(4);
-            this.txbCedulaM.Name = "txbCedulaM";
-            this.txbCedulaM.Size = new System.Drawing.Size(280, 26);
-            this.txbCedulaM.TabIndex = 29;
-            // 
-            // lab7
-            // 
-            this.lab7.AutoSize = true;
-            this.lab7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lab7.Location = new System.Drawing.Point(52, 490);
-            this.lab7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lab7.Name = "lab7";
-            this.lab7.Size = new System.Drawing.Size(48, 20);
-            this.lab7.TabIndex = 32;
-            this.lab7.Text = "RUT:";
-            // 
-            // txbRUT
-            // 
-            this.txbRUT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txbRUT.Location = new System.Drawing.Point(56, 515);
-            this.txbRUT.Margin = new System.Windows.Forms.Padding(4);
-            this.txbRUT.Name = "txbRUT";
-            this.txbRUT.Size = new System.Drawing.Size(280, 26);
-            this.txbRUT.TabIndex = 31;
             // 
             // lab5
             // 
@@ -287,16 +245,16 @@
             // 
             // btnSubirFoto
             // 
-            this.btnSubirFoto.BackColor = System.Drawing.Color.Transparent;
+            this.btnSubirFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(120)))), ((int)(((byte)(210)))));
             this.btnSubirFoto.FlatAppearance.BorderSize = 0;
             this.btnSubirFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnSubirFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubirFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubirFoto.ForeColor = System.Drawing.Color.Black;
-            this.btnSubirFoto.Location = new System.Drawing.Point(474, 201);
+            this.btnSubirFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubirFoto.ForeColor = System.Drawing.Color.White;
+            this.btnSubirFoto.Location = new System.Drawing.Point(513, 351);
             this.btnSubirFoto.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubirFoto.Name = "btnSubirFoto";
-            this.btnSubirFoto.Size = new System.Drawing.Size(116, 35);
+            this.btnSubirFoto.Size = new System.Drawing.Size(153, 35);
             this.btnSubirFoto.TabIndex = 35;
             this.btnSubirFoto.Text = "Subir Foto";
             this.btnSubirFoto.UseVisualStyleBackColor = false;
@@ -304,28 +262,48 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(415, 90);
+            this.pictureBox1.BackColor = System.Drawing.Color.Thistle;
+            this.pictureBox1.Location = new System.Drawing.Point(468, 81);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(242, 244);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "AbrirImagen";
+            // 
+            // lab6
+            // 
+            this.lab6.AutoSize = true;
+            this.lab6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lab6.Location = new System.Drawing.Point(52, 426);
+            this.lab6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lab6.Name = "lab6";
+            this.lab6.Size = new System.Drawing.Size(66, 20);
+            this.lab6.TabIndex = 30;
+            this.lab6.Text = "Cédula:";
+            // 
+            // txbCedulaM
+            // 
+            this.txbCedulaM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txbCedulaM.Location = new System.Drawing.Point(56, 451);
+            this.txbCedulaM.Margin = new System.Windows.Forms.Padding(4);
+            this.txbCedulaM.Name = "txbCedulaM";
+            this.txbCedulaM.Size = new System.Drawing.Size(280, 26);
+            this.txbCedulaM.TabIndex = 29;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
-            this.ClientSize = new System.Drawing.Size(707, 605);
+            this.ClientSize = new System.Drawing.Size(800, 580);
             this.Controls.Add(this.btnSubirFoto);
             this.Controls.Add(this.lab5);
             this.Controls.Add(this.txbTel);
-            this.Controls.Add(this.lab7);
-            this.Controls.Add(this.txbRUT);
             this.Controls.Add(this.lab6);
             this.Controls.Add(this.txbCedulaM);
             this.Controls.Add(this.lab1);
@@ -367,14 +345,12 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lab1;
-        private System.Windows.Forms.Label lab6;
-        private System.Windows.Forms.TextBox txbCedulaM;
-        private System.Windows.Forms.Label lab7;
-        private System.Windows.Forms.TextBox txbRUT;
         private System.Windows.Forms.Label lab5;
         private System.Windows.Forms.TextBox txbTel;
         private System.Windows.Forms.Button btnSubirFoto;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label lab6;
+        private System.Windows.Forms.TextBox txbCedulaM;
     }
 }

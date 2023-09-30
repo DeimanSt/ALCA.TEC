@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Al_Soft
 {
-    public partial class Form3_3 : Form
+    public partial class Form3_2 : Form
     {
-        public Form3_3()
+        public Form3_2()
         {
             InitializeComponent();
-        }
-
-        private void btnBuscarProd_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
