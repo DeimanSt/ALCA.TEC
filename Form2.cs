@@ -1,6 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -41,15 +43,15 @@ namespace Al_Soft
                 MessageBox.Show("Error " + ex.ToString());
 
             }
-            String sql = "insert into modista(Usuario, Contraseña, CédulaM, Teléfono) values ('" + IngresarUsuariotxb.Text + "' , '" + Contratxb.Text + "', '" + txbCedulaM.Text + "' , '" + txbTel.Text + "',)";
+            String sql = "insert into Modista(Usuario, Contraseña, Teléfono) values ('"+ IngresarUsuariotxb.Text + "' , '" + Contraseñatxb.Text + "', '" + txbTel.Text + "')";
             MySqlCommand RegistroConex = new MySqlCommand(sql, abrirconexion);
             try
             {
                 RegistroConex.ExecuteNonQuery();
                 MessageBox.Show("Usuario Registrado Exitosamente");
                 this.Hide();
-                Form1 n1 = new Form1();
-                n1.Show();
+                Form1 n2 = new Form1();
+                n2.Show();
             }
             catch (MySqlException ex)
             {
@@ -57,21 +59,7 @@ namespace Al_Soft
             }
         }
 
-        private void btnSubirFoto_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog AbrirImagen = new OpenFileDialog();
-            AbrirImagen.Filter = "Imagenes| *.jpg; *.png";
-            AbrirImagen.InitialDirectory= Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
-            AbrirImagen.Title= "Seleccionar Imágen";
-
-            if(AbrirImagen.ShowDialog() == DialogResult.OK)
-            {
-                pictureBox1.Image= Image.FromFile(AbrirImagen.FileName);
-                btnSubirFoto.Visible = false;
-            }
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }

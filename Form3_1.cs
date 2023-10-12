@@ -20,7 +20,7 @@ namespace Al_Soft
             InitializeComponent();
         }
         MySqlConnection Abrirconexion = new MySqlConnection("server=127.0.0.1; database=tienda; Uid=root;");
-
+         
         private void Form3_1_Load(object sender, EventArgs e)
         {
             //
@@ -33,13 +33,19 @@ namespace Al_Soft
 
         private void btnAñadir_Click(object sender, EventArgs e) //Se traen los datos de las tablas de mysql hacia el programa.
         {
+            
             Abrirconexion.Open();
-            string abrirconsulta = "insert into Clientes values(" + txbIDCliente + ",'" + txbNombre + "','" + txbApellido + "','" + txbDir + "','" + txbTel + "','" + txbCI + "');";
+            string abrirconsulta = "insert into Clientes (IDCliente, Nombre, Apellido, CédulaC, Dirección, Teléfono) values ('" + txbIDCliente + "','" + txbNombre.Text + "','" + txbApellido.Text + "','"+txbCI.Text+"','" + txbDir.Text + "','" + txbTel.Text + "') ";
             MySqlCommand comando = new MySqlCommand(abrirconsulta, Abrirconexion);
             comando.ExecuteNonQuery();
             MessageBox.Show("Registrado");
 
             Abrirconexion.Close();
+        }
+
+        private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

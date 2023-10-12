@@ -12,7 +12,7 @@ namespace Al_Soft
         public Form3()
         {
             InitializeComponent();
-          
+         
         }
 
         //😭 Para mover el formulario.
@@ -46,7 +46,7 @@ namespace Al_Soft
 
         private void btnRestaurar_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1000, 700); //indicamos q el tamaño del form tendra un nuevo tamaño, en este caso será el de nuestro form
+            this.Size = new Size(1300, 800); //indicamos q el tamaño del form tendra un nuevo tamaño, en este caso será el de nuestro form
             this.Location = new Point(LX, LY);
             btnRestaurar.Visible = false;
             btnMaximizar.Visible = true;
@@ -77,26 +77,28 @@ namespace Al_Soft
 
         }
 
-        private void btnGeStock_Click(object sender, EventArgs e)
-        {
-            AbrirFormularios(new Form3_3());
-        }
-
+       
+        
         private void btnMoldesP_Click(object sender, EventArgs e)
         {
             AbrirFormularios(new Form3_2());
         }
 
+        private void btnGanancias_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void pictDeslizarMenu_Click(object sender, EventArgs e)
         {
 
-            if (pnlMenu.Width == 350)
+            if (pnlMenu.Width == 370)
             {
-                pnlMenu.Width = 70;
+                pnlMenu.Width = 60;
             }
             else
             {
-                pnlMenu.Width = 350;
+                pnlMenu.Width = 370;
             }
         }
      }

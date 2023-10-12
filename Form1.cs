@@ -10,11 +10,12 @@ namespace Al_Soft
         public Form1()
         {
             InitializeComponent();
+            textBox2.UseSystemPasswordChar = true;
+
         }
 
-        private void label2_Click(object sender, EventArgs e)//si se lo elimina el programa falla xd//
-        {
-        }
+
+
 
         private void cerrar_Click(object sender, EventArgs e)
         {
@@ -61,7 +62,7 @@ namespace Al_Soft
             }
 
             //Se realiza conexion con la BDD para Iniciar sesion con un usuario y contraseña previamente ingresados. //
-            string sql = "select usuario, contraseña from modista where usuario= '" + nombre + "' and contraseña = '" + clave + "' ";
+            string sql = "select Usuario, Contraseña from Modista where Usuario= '" + nombre + "' and Contraseña = '" + clave + "' ";
             MySqlCommand codigo = new MySqlCommand(sql, Abrirconexion);
             MySqlDataReader Lectura = codigo.ExecuteReader();
 
@@ -84,6 +85,7 @@ namespace Al_Soft
         //Ocultar Contraseña
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+
             if (checkBox1.Checked == true)
             {
                 textBox2.UseSystemPasswordChar = false;
@@ -94,9 +96,6 @@ namespace Al_Soft
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }

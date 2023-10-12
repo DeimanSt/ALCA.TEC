@@ -17,7 +17,12 @@ namespace Al_Soft
             InitializeComponent();
         }
 
-        private void btnBuscarProd_Click(object sender, EventArgs e)
+        private void Form3_3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
