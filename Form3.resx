@@ -190,7 +190,7 @@
         Or49vqb/6Pj2KL/v6PhEIhFPpXIEvk4058dZRdgAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnGanancias.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnPrendas.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAABPFJREFUWEftmFmoVVUYx+/VsoeKzIksIrVBLQLJe7WXEq1UFAMpTQIzSZGsJyOa
@@ -217,7 +217,7 @@
         nwP2stc4rP3751FLLf2/1db2L/NV9usqD3KgAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnGeStock.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnStockM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAAAbZJREFUWEftlr1KA0EUhdNq5wuI+hQWvoVPEUGwsra0sLaITyAogo2giI1gLYiN

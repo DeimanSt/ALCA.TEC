@@ -11,12 +11,7 @@ namespace Al_Soft
         {
             InitializeComponent();
             textBox2.UseSystemPasswordChar = true;
-
         }
-
-
-
-
         private void cerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -41,6 +36,7 @@ namespace Al_Soft
         //Comando para que el usuario pueda ingresar al Formulario siguiente y así Registrarse
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.Hide();
             Form2 frm = new Form2();
             frm.Show();
         }
@@ -58,7 +54,7 @@ namespace Al_Soft
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show("Error " + ex.ToString());
+                MessageBox.Show(ex.Message+ex.StackTrace);
             }
 
             //Se realiza conexion con la BDD para Iniciar sesion con un usuario y contraseña previamente ingresados. //
@@ -75,11 +71,12 @@ namespace Al_Soft
             }
             else
             {
-                MessageBox.Show(" Usuario o Contraseña incorrectos. "); // Se envia un mensaje en caso de error o no estar registrado. //
+                MessageBox.Show("Usuario o Contraseña incorrectos."); // Se envia un mensaje en caso de error o no estar registrado. //
                 this.Hide();
                 Form1 n1 = new Form1();
                 n1.Show();
             }
+       
         }
 
         //Ocultar Contraseña
@@ -96,6 +93,6 @@ namespace Al_Soft
             }
         }
 
-     
+      
     }
 }

@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
@@ -31,7 +32,7 @@ namespace Al_Soft
         {
             this.Close();
         }
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e, MessageBoxIcon messageBoxIcon)
         {
             MySqlConnection abrirconexion = new MySqlConnection("server = 127.0.0.1; database=tienda; Uid=root");
             try
@@ -43,8 +44,9 @@ namespace Al_Soft
                 MessageBox.Show("Error " + ex.ToString());
 
             }
-            String sql = "insert into Modista(Usuario, Contraseña, Teléfono) values ('"+ IngresarUsuariotxb.Text + "' , '" + Contraseñatxb.Text + "', '" + txbTel.Text + "')";
+            String sql = "insert into Modista(Usuario, Contraseña, Teléfono) values ('" + IngresarUsuariotxb.Text + "' , '" + Contraseñatxb.Text + "', '" + txbTel.Text + "')";
             MySqlCommand RegistroConex = new MySqlCommand(sql, abrirconexion);
+
             try
             {
                 RegistroConex.ExecuteNonQuery();
@@ -55,7 +57,7 @@ namespace Al_Soft
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show("Error " + ex.ToString());
+                MessageBox.Show(ex.Message + ex.StackTrace);
             }
         }
 

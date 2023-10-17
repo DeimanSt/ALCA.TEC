@@ -38,8 +38,8 @@
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.btnManual = new System.Windows.Forms.Button();
             this.btnControlA = new System.Windows.Forms.Button();
-            this.btnGanancias = new System.Windows.Forms.Button();
-            this.btnGeStock = new System.Windows.Forms.Button();
+            this.btnPrendas = new System.Windows.Forms.Button();
+            this.btnStockM = new System.Windows.Forms.Button();
             this.btnMoldesP = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
@@ -147,8 +147,8 @@
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(120)))), ((int)(((byte)(210)))));
             this.pnlMenu.Controls.Add(this.btnManual);
             this.pnlMenu.Controls.Add(this.btnControlA);
-            this.pnlMenu.Controls.Add(this.btnGanancias);
-            this.pnlMenu.Controls.Add(this.btnGeStock);
+            this.pnlMenu.Controls.Add(this.btnPrendas);
+            this.pnlMenu.Controls.Add(this.btnStockM);
             this.pnlMenu.Controls.Add(this.btnMoldesP);
             this.pnlMenu.Controls.Add(this.btnClientes);
             this.pnlMenu.Controls.Add(this.pnlLogo);
@@ -196,44 +196,44 @@
             this.btnControlA.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnControlA.UseVisualStyleBackColor = true;
             // 
-            // btnGanancias
+            // btnPrendas
             // 
-            this.btnGanancias.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnGanancias.FlatAppearance.BorderSize = 0;
-            this.btnGanancias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.HotPink;
-            this.btnGanancias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGanancias.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGanancias.ForeColor = System.Drawing.Color.White;
-            this.btnGanancias.Image = ((System.Drawing.Image)(resources.GetObject("btnGanancias.Image")));
-            this.btnGanancias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGanancias.Location = new System.Drawing.Point(0, 385);
-            this.btnGanancias.Name = "btnGanancias";
-            this.btnGanancias.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.btnGanancias.Size = new System.Drawing.Size(370, 70);
-            this.btnGanancias.TabIndex = 4;
-            this.btnGanancias.Text = "                        Ventas";
-            this.btnGanancias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGanancias.UseVisualStyleBackColor = true;
-            this.btnGanancias.Click += new System.EventHandler(this.btnGanancias_Click);
+            this.btnPrendas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPrendas.FlatAppearance.BorderSize = 0;
+            this.btnPrendas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.HotPink;
+            this.btnPrendas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrendas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrendas.ForeColor = System.Drawing.Color.White;
+            this.btnPrendas.Image = ((System.Drawing.Image)(resources.GetObject("btnPrendas.Image")));
+            this.btnPrendas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPrendas.Location = new System.Drawing.Point(0, 385);
+            this.btnPrendas.Name = "btnPrendas";
+            this.btnPrendas.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnPrendas.Size = new System.Drawing.Size(370, 70);
+            this.btnPrendas.TabIndex = 4;
+            this.btnPrendas.Text = "                  Prendas Realizadas";
+            this.btnPrendas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPrendas.UseVisualStyleBackColor = true;
             // 
-            // btnGeStock
+            // btnStockM
             // 
-            this.btnGeStock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnGeStock.FlatAppearance.BorderSize = 0;
-            this.btnGeStock.FlatAppearance.MouseOverBackColor = System.Drawing.Color.HotPink;
-            this.btnGeStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGeStock.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGeStock.ForeColor = System.Drawing.Color.White;
-            this.btnGeStock.Image = ((System.Drawing.Image)(resources.GetObject("btnGeStock.Image")));
-            this.btnGeStock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGeStock.Location = new System.Drawing.Point(0, 315);
-            this.btnGeStock.Name = "btnGeStock";
-            this.btnGeStock.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.btnGeStock.Size = new System.Drawing.Size(370, 70);
-            this.btnGeStock.TabIndex = 3;
-            this.btnGeStock.Text = "                  Gestión de Stock";
-            this.btnGeStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGeStock.UseVisualStyleBackColor = true;
+            this.btnStockM.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnStockM.FlatAppearance.BorderSize = 0;
+            this.btnStockM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.HotPink;
+            this.btnStockM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStockM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStockM.ForeColor = System.Drawing.Color.White;
+            this.btnStockM.Image = ((System.Drawing.Image)(resources.GetObject("btnStockM.Image")));
+            this.btnStockM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStockM.Location = new System.Drawing.Point(0, 315);
+            this.btnStockM.Name = "btnStockM";
+            this.btnStockM.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnStockM.Size = new System.Drawing.Size(370, 70);
+            this.btnStockM.TabIndex = 3;
+            this.btnStockM.Text = "                  Stock Materiales";
+            this.btnStockM.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStockM.UseVisualStyleBackColor = true;
+            this.btnStockM.Click += new System.EventHandler(this.btnStockM_Click);
             // 
             // btnMoldesP
             // 
@@ -353,8 +353,8 @@
         private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnControlA;
-        private System.Windows.Forms.Button btnGanancias;
-        private System.Windows.Forms.Button btnGeStock;
+        private System.Windows.Forms.Button btnPrendas;
+        private System.Windows.Forms.Button btnStockM;
         private System.Windows.Forms.Button btnMoldesP;
         private System.Windows.Forms.Button btnManual;
         private System.Windows.Forms.PictureBox pictDeslizarMenu;

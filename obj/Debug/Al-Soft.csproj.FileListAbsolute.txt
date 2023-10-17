@@ -99,12 +99,12 @@ C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form1.resources
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form2.resources
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3.resources
+C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3_1.resources
+C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3_2.resources
+C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3_3.resources
+C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Properties.Resources.resources
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.csproj.GenerateResource.cache
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.csproj.CoreCompileInputs.cache
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.csproj.CopyComplete
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.exe
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.pdb
-C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Properties.Resources.resources
-C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3_1.resources
-C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3_2.resources
-C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3_3.resources

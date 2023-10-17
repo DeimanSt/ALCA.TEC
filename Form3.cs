@@ -76,16 +76,14 @@ namespace Al_Soft
             AbrirFormularios(new Form3_1());
 
         }
-
-       
-        
         private void btnMoldesP_Click(object sender, EventArgs e)
         {
             AbrirFormularios(new Form3_2());
         }
 
-        private void btnGanancias_Click(object sender, EventArgs e)
+        private void btnStockM_Click(object sender, EventArgs e)
         {
+            AbrirFormularios(new Form3_3());
 
         }
 
