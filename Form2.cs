@@ -16,7 +16,6 @@ namespace Al_Soft
             InitializeComponent();
         }
 
-        //again mover el panel 😒
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleasedCapture();
 
@@ -31,10 +30,15 @@ namespace Al_Soft
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            frmLogin n1 = new frmLogin();
+            n1.Show();
+
         }
-        private void button3_Click(object sender, EventArgs e, MessageBoxIcon messageBoxIcon)
+
+        private void button3_Click(object sender, EventArgs e)
         {
             MySqlConnection abrirconexion = new MySqlConnection("server = 127.0.0.1; database=tienda; Uid=root");
+
             try
             {
                 abrirconexion.Open();
@@ -46,24 +50,19 @@ namespace Al_Soft
             }
             String sql = "insert into Modista(Usuario, Contraseña, Teléfono) values ('" + IngresarUsuariotxb.Text + "' , '" + Contraseñatxb.Text + "', '" + txbTel.Text + "')";
             MySqlCommand RegistroConex = new MySqlCommand(sql, abrirconexion);
-
             try
             {
                 RegistroConex.ExecuteNonQuery();
                 MessageBox.Show("Usuario Registrado Exitosamente");
-                this.Hide();
-                Form1 n2 = new Form1();
-                n2.Show();
+                this.Close();
+                frmLogin n1 = new frmLogin();
+                n1.Show();
             }
+
             catch (MySqlException ex)
             {
                 MessageBox.Show(ex.Message + ex.StackTrace);
             }
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

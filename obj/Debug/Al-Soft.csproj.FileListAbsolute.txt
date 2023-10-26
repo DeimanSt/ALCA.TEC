@@ -96,7 +96,7 @@ C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\bin\Debug
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.csproj.AssemblyReference.cache
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.csproj.SuggestedBindingRedirects.cache
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al-Soft.exe.config
-C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form1.resources
+C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Login.resources
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form2.resources
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3.resources
 C:\Users\Lucia Cardozo\source\repos\Al-Soft\Alca.Tec Proyecto\ALCA.TEC\obj\Debug\Al_Soft.Form3_1.resources
