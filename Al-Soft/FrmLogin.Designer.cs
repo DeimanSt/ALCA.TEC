@@ -38,15 +38,15 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.labTitulo = new System.Windows.Forms.Label();
             this.pnlTituloLogin = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.picBxLogoEmp = new System.Windows.Forms.PictureBox();
             this.txtNomUsu = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlTituloLogin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBxLogoEmp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBxLogoEmp)).BeginInit();
             this.SuspendLayout();
             // 
             // btnIngresar
@@ -163,6 +163,16 @@
             this.pnlTituloLogin.TabIndex = 0;
             this.pnlTituloLogin.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTituloLogin_MouseDown);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(49, 42);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
             // picBxLogoEmp
             // 
             this.picBxLogoEmp.BackColor = System.Drawing.Color.LightGray;
@@ -192,7 +202,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.Blue;
-            this.linkLabel1.Location = new System.Drawing.Point(132, 465);
+            this.linkLabel1.Location = new System.Drawing.Point(132, 462);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(204, 25);
             this.linkLabel1.TabIndex = 31;
@@ -213,16 +223,6 @@
             this.button1.Size = new System.Drawing.Size(50, 40);
             this.button1.TabIndex = 32;
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(49, 42);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 11;
-            this.pictureBox2.TabStop = false;
             // 
             // FrmLogin
             // 
@@ -250,8 +250,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlTituloLogin.ResumeLayout(false);
             this.pnlTituloLogin.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBxLogoEmp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBxLogoEmp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
