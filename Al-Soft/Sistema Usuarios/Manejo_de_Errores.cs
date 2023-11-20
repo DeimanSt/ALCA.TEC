@@ -11,33 +11,31 @@ namespace Al_Soft.Sistema_Usuarios
             Ingreso_de_Datos datosusuario = new Ingreso_de_Datos();
             string respuesta = "";
 
-            // Usando IsNullOrEmpty Validamos si hay campos vacios de ésta manera:
             if (string.IsNullOrEmpty(usuario.Usu1) || string.IsNullOrEmpty(usuario.Contras1) || string.IsNullOrEmpty(usuario.ConfirmContras)
-               || string.IsNullOrEmpty(usuario.Tel) || string.IsNullOrEmpty(usuario.TipoU)) //el símbolo || significa: "ó".
+               || string.IsNullOrEmpty(usuario.TipoU) || string.IsNullOrEmpty(usuario.Tel))
             {
-                respuesta = "Debe rellenar todos los campos!"; // en caso de encontrar campos vacios.
+                respuesta = "Debe rellenar todos los campos!"; 
             }
             else
             {
-                //en caso de estar todo bien, se procede a verificar si las contraseñas coinciden con usuarios existentes:
                 if (usuario.Contras1 == usuario.ConfirmContras)
                 {
-                    if (datosusuario.existeUsuario(usuario.Usu1)) //verifica si el usuario ya existe.
+                    if (datosusuario.existeUsuario(usuario.Usu1)) 
                     {
-                        respuesta = "El usuario ya existe."; //en caso de existir no va a dejar crearlo otra vez.
+                        respuesta = "El usuario ya existe."; 
                     }
                     else
                     {
-                        usuario.Contras1 = cifradoSHA256(usuario.Contras1); //realiza encriptado de la contraseña.
-                        datosusuario.Registro(usuario); //se comparan las contraseñas encriptadas.
+                        usuario.Contras1 = cifradoSHA256(usuario.Contras1); 
+                        datosusuario.Registro(usuario); 
                     }
                 }
                 else
                 {
-                    respuesta = "Las contraseñas no coinciden."; // mensaje en caso de no coincidir dichas contraseñas.
+                    respuesta = "Las contraseñas no coinciden.";
                 }
             }
-            return respuesta;// se vuelve a la parte de validación de los campos.       
+            return respuesta;       
         }
 
         public string cntrlLogin(string Usuario, string Contraseña)
@@ -46,8 +44,7 @@ namespace Al_Soft.Sistema_Usuarios
             string respuesta = "";
             Auxiliares infousuario = null;
 
-            // Validación para q los campos de Inicio de Sesión no estén vacíos:
-            if (string.IsNullOrEmpty(Usuario) || string.IsNullOrEmpty(Contraseña)) //si uno u otro estan vacíos.
+            if (string.IsNullOrEmpty(Usuario) || string.IsNullOrEmpty(Contraseña))
             {
                 respuesta = "Debe rellenar todos los campos!";
             }
@@ -70,7 +67,6 @@ namespace Al_Soft.Sistema_Usuarios
         }
 
         #region Método de cifradoSHA256
-        //CREAMOS UN MÉTODO PARA CIFRAR LAS CONTRASEÑAS.
         private string cifradoSHA256(string cadena)
         {
             UTF8Encoding enc = new UTF8Encoding();

@@ -6,19 +6,16 @@ namespace Al_Soft.Sistema_Usuarios
     {
         public int Registro(Auxiliares usuario)
         {
-            MySqlConnection conex = Conexión.GetConnection(); //llamamos la clase conexión.
-            conex.Open();  //abrimos la conexión con mysql.
-
-            //creamos una variable de tipo string para realizar el ingreso de datos a mysql:
-            string ingresodatos = "INSERT INTO Modista(Usuario,Contraseña, Teléfono, Tipo_usuario)" +
-              "VALUES(@Usu, @Contras, @Tel, @TipoUsu)"; // le ingresamos alias para la consulta.
+            MySqlConnection conex = Conexión.GetConnection(); 
+            conex.Open();  
+            string ingresodatos = "INSERT INTO Usuarios(Usuario,Contraseña,Tipo_Usuario,Teléfono)" +
+              "VALUES(@Usu, @Contras, @TipoUsu, @Tel)"; 
             MySqlCommand codigo = new MySqlCommand(ingresodatos, conex);
             codigo.Parameters.AddWithValue("@Usu", usuario.Usu1);
             codigo.Parameters.AddWithValue("@Contras", usuario.Contras1);
-            codigo.Parameters.AddWithValue("@Tel", usuario.Tel);
             codigo.Parameters.AddWithValue("@TipoUsu", usuario.TipoU);
+            codigo.Parameters.AddWithValue("@Tel", usuario.Tel);
 
-            // una vez hecha la consulta guardamos el resultado en una variable entera y retornamos el resultado de la misma:
             int resultado = codigo.ExecuteNonQuery();
             return resultado;
         }
@@ -31,7 +28,7 @@ namespace Al_Soft.Sistema_Usuarios
             conex.Open();
 
             //creamos una variable de tipo string para realizar el ingreso de datos a mysql:
-            string ingresodatos = "SELECT IDUsuario FROM Modista WHERE Usuario LIKE @Usu"; // ingresamos la consulta q queremos hacer.
+            string ingresodatos = "SELECT IDUsuario FROM Usuarios WHERE Usuario LIKE @Usu"; // ingresamos la consulta q queremos hacer.
             MySqlCommand codigo = new MySqlCommand(ingresodatos, conex); //mandamos la conexion.
             codigo.Parameters.AddWithValue("@Usu", NomUsuario);
 
@@ -45,7 +42,7 @@ namespace Al_Soft.Sistema_Usuarios
                 return false;
             }
         }
-        #endregion comprobar existencia de Usuario
+        #endregion 
 
         #region comprobar validación x cada Usuario
         public Auxiliares VerificaXUsuario(string NomUsuario)
@@ -55,7 +52,7 @@ namespace Al_Soft.Sistema_Usuarios
             conex.Open();
 
             //creamos una variable de tipo string para realizar el ingreso de datos a mysql:
-            string ingresodatos = "SELECT IDUsuario, Contraseña, Teléfono, Tipo_usuario FROM Modista WHERE Usuario LIKE @Usu"; // ingresamos la consulta q queremos hacer.
+            string ingresodatos = "SELECT IDUsuario, Contraseña, Tipo_Usuario,Teléfono FROM Usuarios WHERE Usuario LIKE @Usu"; // ingresamos la consulta q queremos hacer.
             MySqlCommand codigo = new MySqlCommand(ingresodatos, conex); //mandamos la conexion.
             codigo.Parameters.AddWithValue("@Usu", NomUsuario);
             lectura = codigo.ExecuteReader();  // se realiza lectura de la consulta.
@@ -66,11 +63,11 @@ namespace Al_Soft.Sistema_Usuarios
                 usr = new Auxiliares();
                 usr.IdU = int.Parse(lectura["IDUsuario"].ToString());
                 usr.Contras1 = lectura["Contraseña"].ToString();
+                usr.TipoU = lectura["Tipo_Usuario"].ToString();
                 usr.Tel = lectura["Teléfono"].ToString();
-                usr.TipoU = lectura["Tipo_usuario"].ToString();
             }
             return usr; // Devolvemos el resultado a la consulta.
         }
-        #endregion comprobar validación x cada Usuario
+        #endregion 
     }
 }

@@ -11,12 +11,28 @@ namespace Al_Soft
         {
             InitializeComponent();
         }
+        #region Libreria para Mover el Formulario.
+        //😭 Para mover el formulario.
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleasedCapture();
 
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int Param, int lParam);
+        private void FrmRegistro_MouseMove(object sender, MouseEventArgs e)
+        {
+            ReleasedCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+        #endregion
+
+        private void btnSalir_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            Auxiliares conexauxiliar = new Auxiliares(); //llamamos a la clase Auxiliares q contiene los métodos de SET y GET.
+            Auxiliares conexauxiliar = new Auxiliares();
 
-            // Asignamos a cada SET y GET su correspondiente caja de texto u otra herramienta utilizada (x ej: radiobutton).
             conexauxiliar.Usu1 = txtNomUsu.Text;
             conexauxiliar.Contras1 = txtContras.Text;
             conexauxiliar.ConfirmContras = txtConfContras.Text;
@@ -29,7 +45,6 @@ namespace Al_Soft
             if (radBtnAdmin.Checked == true)
             {
                 conexauxiliar.TipoU = "Administrador";
-
             }
             else
             {
@@ -37,35 +52,30 @@ namespace Al_Soft
             }
             #endregion Selección de Tipo de Usuario
 
-            try //Convocamos a los Métodos de Captura de Errores.
+            try 
             {
-                Manejo_de_Errores control = new Manejo_de_Errores(); // Convoca al Manejo de Errores para que verifique cada campo.
-                string respuesta = control.ctrlRegistro(conexauxiliar); // Carga los valores de cada campo del Formulario de Registro.
-
+                Manejo_de_Errores control = new Manejo_de_Errores(); 
+                string respuesta = control.ctrlRegistro(conexauxiliar); 
                 if (respuesta.Length > 0)
                 {
-                    // En caso de que surga algun error en el registro se envía un mensaje:
                     MessageBox.Show(respuesta, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-                    // En caso contrario:
                     MessageBox.Show("Registro Exitoso.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close();
-                   FrmMenú fm=new FrmMenú();
+                    FrmMenú fm = new FrmMenú();
                     fm.Show();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message); // Me envia los Mensajes de error en caso de existir alguno.
+                MessageBox.Show(ex.Message); 
             }
 
         }
 
-        private void btnSalir_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+
     }
 }
+

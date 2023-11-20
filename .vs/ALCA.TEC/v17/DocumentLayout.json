@@ -1,0 +1,627 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|c:\\users\\sheya\\onedrive\\escritorio\\alca.tec\\al-soft\\reportes\\frmregistromensual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmregistromensual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmmen\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmmen\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmmen\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmmen\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmrecupcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmrecupcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmrecupcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmrecupcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreportediario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreportediario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreporteegre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreporteegre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreporteingr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreporteingr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\sistema usuarios\\conexi\u00F3n\u002Bauxiliares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\sistema usuarios\\conexi\u00F3n\u002Bauxiliares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\sistema usuarios\\manejo_de_errores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\sistema usuarios\\manejo_de_errores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\sistema usuarios\\ingreso_de_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\sistema usuarios\\ingreso_de_datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\sistema usuarios\\configuracionapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\sistema usuarios\\configuracionapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmregistromensual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmregistromensual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreportediario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreportediario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreporteegre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreporteegre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreporteingr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreporteingr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmmateriap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmmateriap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmmateriap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmmateriap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmcontrolgr\u00E1fico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmcontrolgr\u00E1fico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmcontrolgr\u00E1fico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmcontrolgr\u00E1fico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Al-Soft||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmcontrolgr\u00E1fico.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmcontrolgr\u00E1fico.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmregistromensual.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmregistromensual.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreporteingr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreporteingr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmregistromensual.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmregistromensual.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreportediario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreportediario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreporteegre.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreporteegre.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\reportes\\frmreporteingr.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\reportes\\frmreporteingr.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmmen\u00FA.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmmen\u00FA.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\al-soft\\frmregistro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78293D30-F532-4D8A-A39E-8BF62BA46917}|Al-Soft\\Al-Soft.csproj|solutionrelative:al-soft\\frmregistro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FrmControlGr\u00E1fico.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmControlGr\u00E1fico.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmControlGr\u00E1fico.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmControlGr\u00E1fico.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\FrmControlGr\u00E1fico.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T17:22:31.571Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmMen\u00FA.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMen\u00FA.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmMen\u00FA.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMen\u00FA.cs",
+              "RelativeToolTip": "Al-Soft\\FrmMen\u00FA.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAAKQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T02:01:27.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmRegistro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRegistro.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmRegistro.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\FrmRegistro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T22:03:45.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRegistro.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmRegistro.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRegistro.cs",
+              "RelativeToolTip": "Al-Soft\\FrmRegistro.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwDIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T01:22:10.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmRegistroMensual.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmRegistroMensual.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmRegistroMensual.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T01:19:04.957Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmMen\u00FA.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMen\u00FA.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmMen\u00FA.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMen\u00FA.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\FrmMen\u00FA.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T14:15:17.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmRecupContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRecupContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmRecupContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRecupContrase\u00F1a.cs",
+              "RelativeToolTip": "Al-Soft\\FrmRecupContrase\u00F1a.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T13:21:25.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmRecupContrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRecupContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmRecupContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRecupContrase\u00F1a.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\FrmRecupContrase\u00F1a.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T18:10:26.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmReporteDiario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteDiario.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteDiario.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteDiario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteDiario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T17:03:24.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmReporteEgre.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteEgre.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteEgre.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteEgre.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteEgre.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T17:02:03.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmReporteIngr.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteIngr.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteIngr.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T18:11:16.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Conexi\u00F3n\u002BAuxiliares.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\Conexi\u00F3n\u002BAuxiliares.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Sistema Usuarios\\Conexi\u00F3n\u002BAuxiliares.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\Conexi\u00F3n\u002BAuxiliares.cs",
+              "RelativeToolTip": "Al-Soft\\Sistema Usuarios\\Conexi\u00F3n\u002BAuxiliares.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T19:51:06.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Manejo_de_Errores.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\Manejo_de_Errores.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Sistema Usuarios\\Manejo_de_Errores.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\Manejo_de_Errores.cs",
+              "RelativeToolTip": "Al-Soft\\Sistema Usuarios\\Manejo_de_Errores.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T19:51:40.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ingreso_de_Datos.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\Ingreso_de_Datos.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Sistema Usuarios\\Ingreso_de_Datos.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\Ingreso_de_Datos.cs",
+              "RelativeToolTip": "Al-Soft\\Sistema Usuarios\\Ingreso_de_Datos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T13:21:26.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConfiguracionApp.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\ConfiguracionApp.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Sistema Usuarios\\ConfiguracionApp.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Sistema Usuarios\\ConfiguracionApp.cs",
+              "RelativeToolTip": "Al-Soft\\Sistema Usuarios\\ConfiguracionApp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T19:51:22.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmReporteDiario.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteDiario.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteDiario.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteDiario.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteDiario.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAuwLQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T20:45:04.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmRegistroMensual.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmRegistroMensual.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmRegistroMensual.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T21:00:33.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmReporteEgre.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteEgre.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteEgre.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteEgre.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteEgre.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAuwCcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T17:03:11.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmReporteIngr.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteIngr.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteIngr.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAuwCcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T19:31:20.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmMateriaP.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMateriaP.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmMateriaP.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMateriaP.cs",
+              "RelativeToolTip": "Al-Soft\\FrmMateriaP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T00:56:02.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmMateriaP.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMateriaP.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmMateriaP.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMateriaP.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\FrmMateriaP.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T18:10:29.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\FrmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T17:24:05.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmLogin.cs",
+              "RelativeToolTip": "Al-Soft\\FrmLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T16:59:45.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrmControlGr\u00E1fico.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmControlGr\u00E1fico.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmControlGr\u00E1fico.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmControlGr\u00E1fico.cs",
+              "RelativeToolTip": "Al-Soft\\FrmControlGr\u00E1fico.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T01:52:09.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FrmClientes.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmClientes.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmClientes.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmClientes.cs",
+              "RelativeToolTip": "Al-Soft\\FrmClientes.cs",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAIwGkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T01:18:33.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FrmClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmClientes.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmClientes.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Al-Soft\\FrmClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T01:09:24.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Al-Soft",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Al-Soft.csproj",
+              "RelativeDocumentMoniker": "Al-Soft\\Al-Soft.csproj",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Al-Soft.csproj",
+              "RelativeToolTip": "Al-Soft\\Al-Soft.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-11-20T19:27:14.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FrmControlGr\u00E1fico.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmControlGr\u00E1fico.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmControlGr\u00E1fico.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmControlGr\u00E1fico.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\FrmControlGr\u00E1fico.Designer.cs",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAQwAUBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-20T02:00:48.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FrmRegistroMensual.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmRegistroMensual.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmRegistroMensual.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T19:58:47.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FrmReporteIngr.resx",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.resx",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteIngr.resx",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.resx",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteIngr.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2023-11-20T01:42:26.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FrmRegistroMensual.resx",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.resx",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmRegistroMensual.resx",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmRegistroMensual.resx",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmRegistroMensual.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2023-11-20T00:34:02.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FrmReporteDiario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteDiario.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteDiario.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteDiario.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteDiario.Designer.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAowKUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-19T15:33:00.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FrmReporteEgre.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteEgre.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteEgre.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteEgre.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteEgre.Designer.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAowNgAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-01T13:47:54.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FrmReporteIngr.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\Reportes\\FrmReporteIngr.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\Reportes\\FrmReporteIngr.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\Reportes\\FrmReporteIngr.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T19:59:20.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FrmClientes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmClientes.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmClientes.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmClientes.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\FrmClientes.Designer.cs",
+              "ViewState": "AQIAAGABAAAAAAAAAAASwGABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-17T20:06:56.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FrmMen\u00FA.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMen\u00FA.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmMen\u00FA.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmMen\u00FA.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\FrmMen\u00FA.Designer.cs",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAYwBIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T19:42:25.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FrmRegistro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRegistro.Designer.cs",
+              "RelativeDocumentMoniker": "Al-Soft\\FrmRegistro.Designer.cs",
+              "ToolTip": "C:\\Users\\sheya\\OneDrive\\Escritorio\\ALCA.TEC\\Al-Soft\\FrmRegistro.Designer.cs",
+              "RelativeToolTip": "Al-Soft\\FrmRegistro.Designer.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAWwPkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-18T01:57:29.211Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

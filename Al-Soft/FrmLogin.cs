@@ -10,9 +10,10 @@ namespace Al_Soft
         public FrmLogin()
         {
             InitializeComponent();
+            VerContraseña.Checked = false;
+            txtContraseña.UseSystemPasswordChar = true;
         }
-        #region Código para mover el formulario.
-        //😭 Para mover el formulario.
+
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleasedCapture();
 
@@ -24,11 +25,10 @@ namespace Al_Soft
             ReleasedCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
-        #endregion Código para mover el formulario.
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit(); //línea de código que cierra completamente el Programa.
+            Application.Exit();
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -42,12 +42,10 @@ namespace Al_Soft
                 string respuesta = ctrl.cntrlLogin(Usuario, Contras);
                 if (respuesta.Length > 0)
                 {
-                    // En caso de que surga algun error en el registro se envía un mensaje:
                     MessageBox.Show(respuesta, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-                    // En caso contrario ingresamos directamente al menú del programa:
                     FrmMenú menu = new FrmMenú();
                     menu.Show();
                     this.Hide();
@@ -61,22 +59,21 @@ namespace Al_Soft
 
         private void VerContraseña_CheckedChanged(object sender, EventArgs e)
         {
-
             if (VerContraseña.Checked == true)
-            {
-                txtContraseña.UseSystemPasswordChar = true;
-            }
-            else
             {
                 txtContraseña.UseSystemPasswordChar = false;
             }
+            else
+            {
+                txtContraseña.UseSystemPasswordChar = true;
+            }
         }
 
-        private void FrmLogin_Load(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            FrmRecupContraseña frc = new FrmRecupContraseña();
+            frc.Show();
+            this.Hide();
         }
-
-
     }
 }

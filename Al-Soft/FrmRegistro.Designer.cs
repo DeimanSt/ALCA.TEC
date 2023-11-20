@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistro));
             this.txtContras = new System.Windows.Forms.TextBox();
             this.txtNomUsu = new System.Windows.Forms.TextBox();
-            this.labContras = new System.Windows.Forms.Label();
             this.labNom = new System.Windows.Forms.Label();
             this.txtTel = new System.Windows.Forms.TextBox();
             this.txtConfContras = new System.Windows.Forms.TextBox();
@@ -44,6 +43,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.labTituloReg = new System.Windows.Forms.Label();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.labContras = new System.Windows.Forms.Label();
             this.grBoxTipUsu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,17 +62,6 @@
             this.txtNomUsu.Name = "txtNomUsu";
             this.txtNomUsu.Size = new System.Drawing.Size(280, 30);
             this.txtNomUsu.TabIndex = 27;
-            // 
-            // labContras
-            // 
-            this.labContras.AutoSize = true;
-            this.labContras.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labContras.ForeColor = System.Drawing.Color.GhostWhite;
-            this.labContras.Location = new System.Drawing.Point(57, 184);
-            this.labContras.Name = "labContras";
-            this.labContras.Size = new System.Drawing.Size(230, 24);
-            this.labContras.TabIndex = 26;
-            this.labContras.Text = "Ingrese una Contraseña:";
             // 
             // labNom
             // 
@@ -125,12 +114,11 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRegistrar.BackColor = System.Drawing.Color.HotPink;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrar.ForeColor = System.Drawing.Color.GhostWhite;
-            this.btnRegistrar.Location = new System.Drawing.Point(697, 271);
+            this.btnRegistrar.Location = new System.Drawing.Point(698, 337);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(150, 44);
@@ -147,7 +135,7 @@
             this.grBoxTipUsu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.grBoxTipUsu.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grBoxTipUsu.ForeColor = System.Drawing.Color.GhostWhite;
-            this.grBoxTipUsu.Location = new System.Drawing.Point(647, 114);
+            this.grBoxTipUsu.Location = new System.Drawing.Point(648, 127);
             this.grBoxTipUsu.Name = "grBoxTipUsu";
             this.grBoxTipUsu.Size = new System.Drawing.Size(241, 130);
             this.grBoxTipUsu.TabIndex = 37;
@@ -218,19 +206,30 @@
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.Location = new System.Drawing.Point(925, 2);
+            this.btnSalir.Location = new System.Drawing.Point(896, 4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(40, 35);
             this.btnSalir.TabIndex = 38;
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click_1);
             // 
+            // labContras
+            // 
+            this.labContras.AutoSize = true;
+            this.labContras.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labContras.ForeColor = System.Drawing.Color.GhostWhite;
+            this.labContras.Location = new System.Drawing.Point(57, 184);
+            this.labContras.Name = "labContras";
+            this.labContras.Size = new System.Drawing.Size(230, 24);
+            this.labContras.TabIndex = 26;
+            this.labContras.Text = "Ingrese una Contraseña:";
+            // 
             // FrmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(140)))), ((int)(((byte)(216)))));
-            this.ClientSize = new System.Drawing.Size(967, 475);
+            this.ClientSize = new System.Drawing.Size(940, 500);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.grBoxTipUsu);
             this.Controls.Add(this.labTituloReg);
@@ -245,9 +244,11 @@
             this.Controls.Add(this.labContras);
             this.Controls.Add(this.labNom);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmRegistro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmRegistro";
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FrmRegistro_MouseMove);
             this.grBoxTipUsu.ResumeLayout(false);
             this.grBoxTipUsu.PerformLayout();
             this.ResumeLayout(false);
@@ -258,7 +259,6 @@
         #endregion
         private System.Windows.Forms.TextBox txtContras;
         private System.Windows.Forms.TextBox txtNomUsu;
-        private System.Windows.Forms.Label labContras;
         private System.Windows.Forms.Label labNom;
         private System.Windows.Forms.TextBox txtTel;
         private System.Windows.Forms.TextBox txtConfContras;
@@ -271,5 +271,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label labTituloReg;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Label labContras;
     }
 }
